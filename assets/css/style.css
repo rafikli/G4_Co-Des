@@ -1,14 +1,20 @@
 /* CSS da pagina principal */
 .header1 {
-	margin: 1rem;
+	background-color: #233040;
 }
 
 .insper{
+	padding-top: 1rem;
 	font-family: Montserrat;
 	font-weight: bold;
 	display: flex;
 	justify-content: center;
 	font-size: 2rem;
+	color: #BBD4D8;
+}
+
+.titulo{
+	color: #BBD4D8;
 }
 
 .navbar{
@@ -22,14 +28,19 @@
 .item-header{
 	font-size: 1.2rem;
 	padding: 0 0.5rem;
+	color: #BBD4D8;
 }
 
 #destaques, #navegar{
 	display: flex;
 	justify-content: center;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	font-family: Montserrat;
 	font-weight: bold;
+}
+
+#destaques{
+	margin-top: 1rem;
 }
 
 .parent{
@@ -39,24 +50,13 @@
 	margin: 1rem auto;
 	grid-gap: 1rem;
 	max-width: 70rem;
+	background-color: #BBD4D8;
 }
 
 .child1, .child2, .child3{
-	border: 0.1rem solid;
+	
 }
-/*.mask
-{
-    border-style: solid;
-    border-width: 0 0 3px 3px;
-    position: relative;
-    float: right;
-    clear: none;
-    right: -3px;
-    top: -3px;
-    background-color: white;
-    width: 70%;
-    height: 6em;
-}*/
+
 #foto-modsim{
 	margin-left: 0.5rem;
 	float: right;
@@ -64,11 +64,11 @@
 }
 
 #titulo-modsim{
-	border: 0.1rem solid;
 	padding: 0rem 0rem 0.5rem 0rem;
 	font-size: 1.2rem;
 	font-family: Montserrat;
 	font-weight: bold;
+	color: #141D29;
 }
 
 .child1{
@@ -85,11 +85,11 @@
 }
 
 #titulo-ds{
-	border: 0.1rem solid;
 	padding: 0rem 0rem 0.5rem 0rem;;
 	font-size: 1.2rem;
 	font-family: Montserrat;
 	font-weight: bold;
+	color: #141D29;
 }
 
 .child2{
@@ -106,11 +106,11 @@
 }
 
 #titulo-em{
-	border: 0.1rem solid;
 	padding: 0rem 0rem 0.5rem 0rem;
 	font-size: 1.2rem;
 	font-family: Montserrat;
 	font-weight: bold;
+	color: #141D29;
 }
 
 .child3{
@@ -153,13 +153,14 @@
 	margin: auto;
 	justify-content: space-around;
 	border: 0.1rem solid;
-	padding: 0.5rem;
-	max-width: 75rem;
+	background-color: #233040;
 }
 
 .footer-item{
 	font-size: 1rem;
 	font-family: Archivo;
+	color: #BBD4D8;
+	font-size: 1.2rem;
 
 }
 
@@ -167,22 +168,23 @@ p{
 	text-align: justify;
 	font-family: Archivo;
 	font-size: 0.95rem;
+	color: #233040;
+}
+
+.body{
+	background-color: #BBD4D8;
 }
 
 /* CSS da pagina dos projetos */
-a{
-	text-decoration: none;
-}
 
-.main-disciplina {
-	display: grid;
-	grid-template-rows: 5rem 20rem 3rem 2rem 8rem 2rem 10rem 2rem 5rem;
-	grid-template-columns:50% 50%;
-	border: 0.1rem solid;
-	border-radius: 0.2rem;
-	max-width: 70rem;
-	min-width: 25rem;
-	margin: 0 auto;
+.header {
+	position: relative;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	margin:20px 20px 20px 10px;
+	padding:5px;
+	
 }
 
 .titulo {
@@ -191,14 +193,82 @@ a{
 	font-family: Montserrat;
 }
 
+.nav{
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+
+.nav-item {
+	margin: 10px 30px 10px 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.main-disciplina {
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+
+}
+.item-oa{
+	list-style-type: decimal;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+.subnav {
+	background-color: magenta;
+	position: absolute;
+	width: 120px;
+	visibility: hidden;
+}
+
+.nav-item:hover .subnav {
+	visibility: visible;
+}
+.item-ex {
+	list-style-type: circle;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.item-con {
+	list-style-type: circle;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.img-prj {
+	width: 500px;
+	margin: 20px;
+}
+.head-dis{
+	margin: 10px 0px 10px 0px;
+}
+.head-des{
+	margin: 10px 0px 5px 0px;
+}
+.head-con{
+	margin-top: 10px;
+
+}
 
 .nome-projeto{
-	grid-row-start:1;
-	grid-row-end:2;
-	grid-column-start:1;
-	grid-column-end:3;
+	font-size: 1.2rem;
 	font-family: Montserrat;
-	font-size: 2.5rem
+	font-weight: bold;
 }
 
 .head-dis, .head-des, .head-con, .head-oa, .head-ex{
@@ -211,85 +281,3 @@ a{
 .descricao, .item-con, .item-oa, .item-ex{
 	font-family: Archivo;
 }
-.img-prj {
-	grid-row-start:2;
-	grid-row-end:3;
-	grid-column-start:1;
-	grid-column-end:3;
-	width: 25rem;
-	margin: 0 auto 0 1rem
-}
-.head-dis{
-	grid-row-start:3;
-	grid-row-end:4;
-	grid-column-start:1;
-	grid-column-end:3;
-	margin: 0 auto;
-	font-size: 1.5rem;
-}
-.head-des{
-	grid-row-start:4;
-	grid-row-end:5;
-	grid-column-start:1;
-	grid-column-end:3;
-	margin: 0 auto 0 1rem;
-	font-size: 1.2rem
-}
-.descricao{
-	grid-row-start:5;
-	grid-row-end:6;
-	grid-column-start:1;
-	grid-column-end:3;
-	margin: 0 auto 0 1rem;
-}
-
-
-.head-con{
-	font-size: 1.2rem;
-	margin: 0 auto 0 1rem;
-}
-
-.item-con {
-	list-style-type: circle;
-	grid-row-start:6;
-	grid-row-end:7;
-	grid-column-start:1;
-	grid-column-end:2;
-	margin: 0 auto 0 2rem;
-}
-.head-oa{
-	grid-row-start:6;
-	grid-row-end:7;
-	grid-column-start:2;
-	grid-column-end:3;
-	font-size: 1.2rem;
-
-}
-.item-oa{
-	grid-row-start:7;
-	grid-row-end:8;
-	grid-column-start:2;
-	grid-column-end:3;
-	margin: 0 auto 0 1rem;
-	list-style-type: decimal;	
-}
-
-.head-ex{
-	grid-row-start:8;
-	grid-row-end:9;
-	grid-column-start:1;
-	grid-column-end:2;
-	margin: 0 auto 0 1rem;
-	font-size: 1.2rem;
-}
-
-.item-ex {
-	list-style-type:circle;
-	grid-row-start:9;
-	grid-row-end:10;
-	grid-column-start:1;
-	grid-column-end:2;
-	margin: 0 auto 0 2rem;
-}
-
-
