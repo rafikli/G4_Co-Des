@@ -1,0 +1,295 @@
+/* CSS da pagina principal */
+.header1 {
+	margin: 1rem;
+}
+
+.insper{
+	font-family: Montserrat;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+.navbar{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1rem;
+	justify-content: center;
+	font-family: Montserrat;
+}
+
+.item-header{
+	font-size: 1.2rem;
+	padding: 0 0.5rem;
+}
+
+#destaques, #navegar{
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.parent{
+	display: grid;
+	grid-template-rows: 25% 25% 25% 25%;
+	grid-template-columns: 50% 50%;
+	margin: 1rem auto;
+	grid-gap: 1rem;
+	max-width: 70rem;
+}
+
+.child1, .child2, .child3{
+	border: 0.1rem solid;
+}
+/*.mask
+{
+    border-style: solid;
+    border-width: 0 0 3px 3px;
+    position: relative;
+    float: right;
+    clear: none;
+    right: -3px;
+    top: -3px;
+    background-color: white;
+    width: 70%;
+    height: 6em;
+}*/
+#foto-modsim{
+	margin-left: 0.5rem;
+	float: right;
+	width: 55%;
+}
+
+#titulo-modsim{
+	border: 0.1rem solid;
+	padding: 0rem 0rem 0.5rem 0rem;
+	font-size: 1.2rem;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.child1{
+	grid-row-start: 1; 
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+#foto-ds{
+	margin-left: 0.5rem;
+	float: right;
+	width: 40%;
+}
+
+#titulo-ds{
+	border: 0.1rem solid;
+	padding: 0rem 0rem 0.5rem 0rem;;
+	font-size: 1.2rem;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.child2{
+	grid-row-start: 1; 
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+#foto-em{
+	float: right;
+	margin-left: 0.5rem;
+	width: 40%;
+}
+
+#titulo-em{
+	border: 0.1rem solid;
+	padding: 0rem 0rem 0.5rem 0rem;
+	font-size: 1.2rem;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.child3{
+	grid-row-start: 3; 
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.vertodos{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: auto;
+	padding: 1rem;
+	grid-gap: 1rem;
+	max-width: 40rem;
+}
+
+.ver-todos-box1, .ver-todos-box2{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+}
+
+.ver-todos-box1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-family: Archivo;
+}
+
+.ver-todos-box2{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	font-family: Archivo;
+}
+
+.footer{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1rem;
+	margin: auto;
+	justify-content: space-around;
+	border: 0.1rem solid;
+	padding: 0.5rem;
+	max-width: 75rem;
+}
+
+.footer-item{
+	font-size: 1rem;
+	font-family: Archivo;
+
+}
+
+p{
+	text-align: justify;
+	font-family: Archivo;
+	font-size: 0.95rem;
+}
+
+/* CSS da pagina dos projetos */
+a{
+	text-decoration: none;
+}
+
+.main-disciplina {
+	display: grid;
+	grid-template-rows: 5rem 20rem 3rem 2rem 8rem 2rem 10rem 2rem 5rem;
+	grid-template-columns:50% 50%;
+	border: 0.1rem solid;
+	border-radius: 0.2rem;
+	max-width: 70rem;
+	min-width: 25rem;
+	margin: 0 auto;
+}
+
+.titulo {
+	text-align: center;
+	position: relative; 
+	font-family: Montserrat;
+}
+
+
+.nome-projeto{
+	grid-row-start:1;
+	grid-row-end:2;
+	grid-column-start:1;
+	grid-column-end:3;
+	font-family: Montserrat;
+	font-size: 2.5rem
+}
+
+.head-dis, .head-des, .head-con, .head-oa, .head-ex{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-decoration: underline;
+}
+
+.descricao, .item-con, .item-oa, .item-ex{
+	font-family: Archivo;
+}
+.img-prj {
+	grid-row-start:2;
+	grid-row-end:3;
+	grid-column-start:1;
+	grid-column-end:3;
+	width: 25rem;
+	margin: 0 auto 0 1rem
+}
+.head-dis{
+	grid-row-start:3;
+	grid-row-end:4;
+	grid-column-start:1;
+	grid-column-end:3;
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+.head-des{
+	grid-row-start:4;
+	grid-row-end:5;
+	grid-column-start:1;
+	grid-column-end:3;
+	margin: 0 auto 0 1rem;
+	font-size: 1.2rem
+}
+.descricao{
+	grid-row-start:5;
+	grid-row-end:6;
+	grid-column-start:1;
+	grid-column-end:3;
+	margin: 0 auto 0 1rem;
+}
+
+
+.head-con{
+	font-size: 1.2rem;
+	margin: 0 auto 0 1rem;
+}
+
+.item-con {
+	list-style-type: circle;
+	grid-row-start:6;
+	grid-row-end:7;
+	grid-column-start:1;
+	grid-column-end:2;
+	margin: 0 auto 0 2rem;
+}
+.head-oa{
+	grid-row-start:6;
+	grid-row-end:7;
+	grid-column-start:2;
+	grid-column-end:3;
+	font-size: 1.2rem;
+
+}
+.item-oa{
+	grid-row-start:7;
+	grid-row-end:8;
+	grid-column-start:2;
+	grid-column-end:3;
+	margin: 0 auto 0 1rem;
+	list-style-type: decimal;	
+}
+
+.head-ex{
+	grid-row-start:8;
+	grid-row-end:9;
+	grid-column-start:1;
+	grid-column-end:2;
+	margin: 0 auto 0 1rem;
+	font-size: 1.2rem;
+}
+
+.item-ex {
+	list-style-type:circle;
+	grid-row-start:9;
+	grid-row-end:10;
+	grid-column-start:1;
+	grid-column-end:2;
+	margin: 0 auto 0 2rem;
+}
+
+
