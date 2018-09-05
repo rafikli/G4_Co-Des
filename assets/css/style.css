@@ -13,6 +13,17 @@
 	color: #BBD4D8;
 }
 
+#inspermainlogoimg{
+	padding-top: 1rem;
+	width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inspermainlogoimgfooter{
+	width: 100%;
+}
+
 .titulo{
 	color: #BBD4D8;
 }
