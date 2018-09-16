@@ -6,8 +6,18 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<meta charset="utf-8">
+
+		<script src="lib/app.js"></script>
+	    <script src="lib/database.js"></script>
+	    <script src="lib/codes.js"></script>
+	    <script src="lib/handlebars.js"></script>
+
+	    <script src="assets/js/script.js"></script>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+
 	</head>
+
 	<body class="body">
 		<header class="header1">
 			<a href='https://www.insper.edu.br/'><img src="assets/img/insper-branco.png" alt="Site do Insper" id="inspermainlogoimg"></a>
@@ -68,20 +78,30 @@
 
 		<section class="vertodos">
 			<div class="ver-todos-box1">
-				<h3 class="foco-pratico">Foco Prático</h3>
+				<h3 class="foco">Foco Teórico</h3>
 				<ul class="foco-pl">
-					<li> S1</li>
-					<li> S2</li>
-					<li> S3</li>
+					{{#each FocoTeórico as |projetos grupo|}}
+       			 		<li class="grupo-teorico">{{grupo}}</li>
+       			 		<ul>
+	       			 		{{#each projetos}}
+	       			 			<a href="?foco=Foco Teórico&category={{grupo}}&course={{@key}}"><li class="item-teorico">{{@key}}</li></a>
+	       			 		{{/each}}
+	       			 	</ul>
+      				{{/each}}
 				</ul>
 			</div>
 
 			<div class="ver-todos-box2">
-				<h3 class="foco-pratico">Foco Teórico</h3>
+				<h3 class="foco">Foco Prático</h3>
 				<ul class="focotl">
-					<li> S1</li>
-					<li> S2</li>
-					<li> S3</li>
+					{{#each FocoPrático as |projetos grupo|}}
+       			 		<li class="grupo-pratico">{{grupo}}</li>
+       			 		<ul>
+	       			 		{{#each projetos}}
+	       			 			<a href="?foco=Foco Teórico&category={{grupo}}&course={{@key}}"><li class="item-pratico">{{@key}}</li></a>
+	       			 		{{/each}}
+	       			 	</ul>
+      				{{/each}}
 				</ul>
 			</div>
 		</section>

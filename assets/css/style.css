@@ -186,6 +186,25 @@ p{
 	background-color: #BBD4D8;
 }
 
+.grupo-teorico, .grupo-pratico{
+	margin-left: 0.7rem;
+	list-style-type: disc;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.item-teorico, .item-pratico{
+	margin-left: 1.5rem;
+	list-style-type: circle;
+	font-family: Archivo;
+}
+
+.foco{
+	text-align: center;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
 /* CSS da pagina dos projetos */
 
 a{
@@ -216,7 +235,8 @@ a{
 	grid-column-start:1;
 	grid-column-end:3;
 	font-family: Montserrat;
-	font-size: 2.5rem
+	font-size: 2.5rem;
+	text-align: center;
 }
 
 .head-dis, .head-des, .head-con, .head-oa, .head-ex{
