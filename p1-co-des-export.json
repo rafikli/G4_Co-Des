@@ -1,0 +1,42 @@
+{
+  "Foco Prático" : {
+    "Automação" : {
+      "Estação Meteorológica" : {
+        "nome" : "Estação Meteorológica",
+        "disciplina" : "Instrumentação e Medição (1º Semestre)",
+        "descrição" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo" : ["cont1","cont2","cont3","cont4"],
+        "objetivos" : ["oa1","oa2","oa3","oa4"],
+        "exemplos" : ["ex1","ex2","ex3"]
+      },
+      "Projeto Final de Acionamentos Elétricos" :  {
+        "nome" : "Estação Meteorológica"
+      },
+      "Projeto Final de Modelagem e Controle" : "modcom"
+    },
+    "Design" : {
+      "Girafa do Job Rotation" : "girafa",
+      "Melhoria para carroça de catadores" : "carroca",
+      "Projeto Final de de Co-Design de aplicativos" : "codes"
+    },
+    "Programação" : {
+      "PF Ciência dos Dados" : "dados",
+      "PF Design de Software" : "dsoft",
+      "PF Modelagem e Simulação" : "modsim"
+    }
+  },
+  "Foco Teórico" : {
+    "Empreendedorismo" : {
+      "Modelo de negócio para startup nova" : "startup"
+    },
+    "Exatas" : {
+      "PF Desconstruindo a Matéria" : "Desmat",
+      "PF Matemática Multivariada" : "multvar",
+      "PF Matemática da Variçaão " : "matvar"
+    },
+    "Pensamento Crītico" : {
+      "Cases de GDE" : "case GDE"
+    }
+  }
+}
+
