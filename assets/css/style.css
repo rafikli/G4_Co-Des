@@ -141,6 +141,7 @@
 	justify-content: space-around;
 	border: 0.1rem solid;
 	background-color: #233040;
+	align-items: center;
 }
 
 .footer-item{

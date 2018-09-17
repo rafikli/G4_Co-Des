@@ -9,14 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
   if(path != '/undefined/undefined/undefined'){
     /* codigo das paginas de projeto */
     db.download(path, function(data) {
-
       replace('body', {
           'nome': data['nome'],
           'disciplina': data['disciplina'], 
           'descrição' : data['descrição'],
           'conteudo' : data['conteudo'],
           'objetivos' : data['objetivos'],
-          'exemplos' : data['exemplos'],   
+          'exemplos' : data['exemplos'],
+          'foto' : data['foto'],
+          'nome_aba':data['nome'] 
       })
     })
   }

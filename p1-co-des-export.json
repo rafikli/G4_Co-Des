@@ -1,41 +1,144 @@
 {
-  "Foco Prático" : {
-    "Automação" : {
-      "Estação Meteorológica" : {
-        "nome" : "Estação Meteorológica",
-        "disciplina" : "Instrumentação e Medição (1º Semestre)",
-        "descrição" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "conteudo" : ["cont1","cont2","cont3","cont4"],
-        "objetivos" : ["oa1","oa2","oa3","oa4"],
-        "exemplos" : ["ex1","ex2","ex3"]
+  "Foco Prático": {
+    "Automação": {
+      "Estação Meteorológica": {
+        "nome": "Estação Meteorológica",
+        "disciplina": "Instrumentação e Medição (1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
       },
-      "Projeto Final de Acionamentos Elétricos" :  {
-        "nome" : "Estação Meteorológica"
+      "Projeto Final de Acionamentos Elétricos": {
+        "nome": "Projeto Final de Acionamentos Elétricos",
+        "disciplina": "Acionamentos Elétricos (2º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
       },
-      "Projeto Final de Modelagem e Controle" : "modcom"
+      "Projeto Final de Modelagem e Controle": {
+        "nome": "Projeto Final de Modelagem e Controle",
+        "disciplina": "Modelagem e Controle (4º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      }
     },
-    "Design" : {
-      "Girafa do Job Rotation" : "girafa",
-      "Melhoria para carroça de catadores" : "carroca",
-      "Projeto Final de de Co-Design de aplicativos" : "codes"
+    "Design": {
+      "Girafa do Job Rotation": {
+        "nome": "Girafa do Job Rotation",
+        "disciplina": "Natureza do Design (1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      },
+      "Melhoria para carroça de catadores": {
+        "nome": "Melhoria para carroça de catadores",
+        "disciplina": "Natureza do Design(1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      },
+      "Projeto Final de de Co-Design de aplicativos": {
+        "nome": "Projeto Final de Co-Design de aplicativos",
+        "disciplina": "Co-Design de aplicativos (2º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      }
     },
-    "Programação" : {
-      "PF Ciência dos Dados" : "dados",
-      "PF Design de Software" : "dsoft",
-      "PF Modelagem e Simulação" : "modsim"
+    "Programação": {
+      "Projeto Final de Ciência dos Dados": {
+        "nome": "Projeto Final de Ciência dos Dados",
+        "disciplina": "Ciência dos Dados (2º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      },
+      "Projeto Final de Design de Software":  {
+        "nome": "Projeto Final de Design de Software",
+        "disciplina": "Design de Software (1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      },
+      "Projeto Final de Modelagem e Simulação":  {
+        "nome": "Projeto Final de Modelagem e Simulação",
+        "disciplina": "Modelagem e Simulação (1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      }
     }
   },
-  "Foco Teórico" : {
-    "Empreendedorismo" : {
-      "Modelo de negócio para startup nova" : "startup"
+  "Foco Teórico": {
+    "Empreendedorismo": {
+      "Modelo de negócio para startup nova":  {
+        "nome": "Modelo de negócio para startup nova",
+        "disciplina": "Empreendedorismo Tecnológico (4º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      }
     },
-    "Exatas" : {
-      "PF Desconstruindo a Matéria" : "Desmat",
-      "PF Matemática Multivariada" : "multvar",
-      "PF Matemática da Variçaão " : "matvar"
+    "Exatas": {
+      "Projeto Final de Desconstruindo a Matéria": {
+        "nome": "Projeto Final Desconstruindo a Matéria",
+        "disciplina": "Desconstruindo a Matéria (3º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      },
+      "Projeto Final de Matemática Multivariada": {
+        "nome": "Projeto Final de Matemática Multivariada",
+        "disciplina": "Matemática Multivariada (3º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      },
+      "Projeto Final de Matemática da Variação": {
+        "nome": "Projeto Final de Matemática da Variação",
+        "disciplina": "Matemática da Variação (1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      }
     },
-    "Pensamento Crītico" : {
-      "Cases de GDE" : "case GDE"
+    "Pensamento Crītico": {
+      "Cases de GDE": {
+        "nome": "Cases de GDE",
+        "disciplina": "Grandes Desafios da Engenharia (1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["cont1", "cont2", "cont3", "cont4"],
+        "objetivos": ["oa1", "oa2", "oa3", "oa4"],
+        "exemplos": ["ex1", "ex2", "ex3"],
+        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+      }
     }
   }
 }

@@ -1,12 +1,21 @@
 <!doctype html>
 <html lang="pt-br">
 	<head>
-		<title class="titulo">Projeto Final de Modelagem e Simulação</title>
+		<title class="titulo">{{nome_aba}}</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<meta charset="utf-8">
+
+		<script src="lib/app.js"></script>
+	    <script src="lib/database.js"></script>
+	    <script src="lib/codes.js"></script>
+	    <script src="lib/handlebars.js"></script>
+
+	    <script src="assets/js/script.js"></script>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+
 	</head>
 	<body class="body">
 		<header class="header1">
@@ -28,48 +37,38 @@
 		</header>
 
 		<main class="main-disciplina">		
-			<h1 class="nome-projeto">Projeto Final de Modelagem e Simulação</h1>
+			<h1 class="nome-projeto">{{nome}}</h1>
 
-			<img class="img-prj" src="https://picsum.photos/600/450/?random" alt="Foto do Projeto Final de Modelagem e Simulação">
+			<img class="img-prj" src=assets/img/Foto_PF_ModSim.jpeg alt="Foto do(a) {{nome}}">
 
-			<h2 class="head-dis">Disciplina: <a href="Disciplina.html">Modelagem e Simulação do Mundo Físico </a>(1 Semestre)</h2>
+			<h2 class="head-dis">Disciplina: {{disciplina}}</h2>
 
 			<h2 class="head-des">Descrição:</h2>
 
-			<p class="descricao">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
-			</p>
+			<p class="descricao">{{descrição}}</p>
 
 			<h2 class="head-con">Conteudo Envolvido:</h2>
 
 			<ul>
-				<li class="item-con">Física(Cinematica)</li>
-				<li class="item-con">Programação (Python 3.7)</li>
-				<li class="item-con">Oratória</li>
-				<li class="item-con">Elaboração de Modelos</li>
+				{{#each conteudo}}
+					<li class="item-con">{{this}}</li>
+				{{/each}}
 			</ul>
 
 			<h2 class="head-oa">Objetivos de Aprendizido</h2>
 
 			<ol>
-				<li class="item-oa"> Criar modelos de diferentes tipos de sistemas, usando diferentes estratégias de abstração</li> 
-				<li class="item-oa">Implementar solução numérica de modelos de sistemas dinâmicos usando a linguagem de programação Python</li>
-				<li class="item-oa">Utilizar técnicas comuns de validação de modelos a partir de dados dos sistemas reais correspondentes</li>
-				<li class="item-oa">Elaborar conclusões a partir do comportamento observado para os modelos simulados</li>
-				<li class="item-oa">Comunicar oralmente um conteúdo técnico, com auxílio de um cartaz e/ou apresentação de slides
+				{{#each objetivos}}
+					<li class="item-oa"> {{this}}</li>
+				{{/each}}
 			</ol>
 
 			<h2 class="head-ex">Projetos Concluídos</h2>
 
 			<ul class="item-ex">
-				<li><a href="exemplo_1.html">Exemplo 1</a></li>
-				<li><a href="exemplo_2.html">Exemplo 2</a></li>
-				<li><a href="exemplo_3.html">Exemplo 3</a></li>
+				{{#each exemplos}}
+					<li><a href="exemplo_1.html">{{this}}</a></li>
+				{{/each}}
 			</ul>
 		</main>
 
