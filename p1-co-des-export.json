@@ -1,6 +1,6 @@
 {
   "Foco Prático": {
-    "Automação": {
+    "Automação/Eletrônica": {
       "Estação Meteorológica": {
         "nome": "Estação Meteorológica",
         "disciplina": "Instrumentação e Medição (1º Semestre)",
@@ -142,4 +142,3 @@
     }
   }
 }
-
