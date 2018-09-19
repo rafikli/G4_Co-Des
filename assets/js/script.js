@@ -11,13 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
     db.download(path, function(data) {
       replace('body', {
           'nome': data['nome'],
-          'disciplina': data['disciplina'], 
+          'disciplina': data['disciplina'],
           'descrição' : data['descrição'],
           'conteudo' : data['conteudo'],
           'objetivos' : data['objetivos'],
           'exemplos' : data['exemplos'],
-          'foto' : data['foto'],
-          'nome_aba':data['nome'] 
+          'foto' : data['foto']
+      })
+      replace('head', {
+          'nome': data['nome']   
       })
     })
   }
@@ -29,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       replace('body', {
           'FocoPrático': data['Foco Prático'],
-          'FocoTeórico': data['Foco Teórico'],    
+          'FocoTeórico': data['Foco Teórico'],
       })
       })
   }

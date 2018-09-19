@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
 	<head>
-		<title class="titulo">{{nome_aba}}</title>
+		<title class="titulo">{{nome}}</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
@@ -14,7 +14,7 @@
 
 	  <script src="assets/js/script.js"></script>
 	  <meta charset="utf-8">
-	   <meta name="viewport" content="width=device-width,initial-scale=1">
+	  <meta name="viewport" content="width=device-width,initial-scale=1">
 
 	</head>
 	<body class="body">
@@ -39,7 +39,7 @@
 		<main class="main-disciplina">
 			<h1 class="nome-projeto">{{nome}}</h1>
 
-			<img class="img-prj" src=assets/img/Foto_PF_ModSim.jpeg alt="Foto do(a) {{nome}}">
+			<img class="img-prj" src={{foto}} alt="Foto do(a) {{nome}}">
 
 			<h2 class="head-dis">Disciplina: {{disciplina}}</h2>
 
@@ -49,7 +49,7 @@
 
 			<h2 class="head-con">Conteudo Envolvido:</h2>
 
-			<ul>
+			<ul class="conteudo">
 				{{#each conteudo}}
 					<li class="item-con">{{this}}</li>
 				{{/each}}
@@ -57,7 +57,7 @@
 
 			<h2 class="head-oa">Objetivos de Aprendizido</h2>
 
-			<ol>
+			<ol class="oa">
 				{{#each objetivos}}
 					<li class="item-oa"> {{this}}</li>
 				{{/each}}
