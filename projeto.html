@@ -36,7 +36,9 @@
 			</ul>
 		</header>
 
-		<main class="main-disciplina">
+		<div class="load"><img src="assets/img/load.gif" alt="carregando"></div>
+
+		<main class="main-disciplina hidden">
 			<h1 class="nome-projeto">{{nome}}</h1>
 
 			<img class="img-prj" src={{foto}} alt="Foto do(a) {{nome}}">
@@ -55,7 +57,7 @@
 				{{/each}}
 			</ul>
 
-			<h2 class="head-oa">Objetivos de Aprendizido</h2>
+			<h2 class="head-oa">Objetivos de Aprendizido:</h2>
 
 			<ol class="oa">
 				{{#each objetivos}}
@@ -63,11 +65,11 @@
 				{{/each}}
 			</ol>
 
-			<h2 class="head-ex">Projetos Concluídos</h2>
+			<h2 class="head-ex">Projetos Concluídos:</h2>
 
-			<ul class="item-ex">
+			<ul class="ex">
 				{{#each exemplos}}
-					<li><a href="exemplo_1.html">{{this}}</a></li>
+					<li class="item-ex"><a href="exemplo_1.html">{{this}}</a></li>
 				{{/each}}
 			</ul>
 		</main>

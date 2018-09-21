@@ -206,6 +206,8 @@ a{
 	color: #141D29;
 }
 .nome-projeto{
+	margin-top: 0.5rem;
+	margin-bottom: -0.5rem;
 	grid-row-start:1;
 	grid-row-end:2;
 	grid-column-start:1;
@@ -234,14 +236,14 @@ a{
 	grid-column-start:1;
 	grid-column-end:3;
 	width: 25rem;
-	margin: 0 auto 0 1rem
+	margin: auto;
 }
 .head-dis{
 	grid-row-start:3;
 	grid-row-end:4;
 	grid-column-start:1;
 	grid-column-end:3;
-	margin: 0 auto;
+	margin: 0.5rem auto;
 	font-size: 1.5rem;
 }
 .head-des{
@@ -257,7 +259,9 @@ a{
 	grid-row-end:6;
 	grid-column-start:1;
 	grid-column-end:3;
-	margin: 0 auto 0 1rem;
+	margin-top: 0.3rem;
+	margin-left: 1.5rem;
+	margin-right: 1.2rem;
 }
 .head-con{
 	font-size: 1.2rem;
@@ -269,7 +273,8 @@ a{
 	grid-row-end:7;
 	grid-column-start:1;
 	grid-column-end:2;
-	margin: 0 auto 0 2rem;
+	margin-top: 0.3rem;
+	margin-left: 2.5rem;
 }
 .head-oa{
 	grid-row-start:6;
@@ -283,7 +288,8 @@ a{
 	grid-row-end:8;
 	grid-column-start:2;
 	grid-column-end:3;
-	margin: 0 auto 0 1rem;
+	margin-top: 0.3rem;
+	margin-left: 1.5rem;
 	list-style-type: decimal;
 }
 
@@ -296,7 +302,7 @@ a{
 	font-size: 1.2rem;
 }
 
-.item-ex {
+.ex {
 	list-style-type:circle;
 	grid-row-start:9;
 	grid-row-end:10;
@@ -304,6 +310,22 @@ a{
 	grid-column-end:2;
 	margin: 0 auto 0 2rem;
 }
+.item-ex{
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+}
+.load {
+	text-align: center;
+}
+.load img {
+	width: 3rem;
+}
+.hidden {
+	display: none;
+}
+.geral{
+}
+
 
 @media (max-width: 440px) {
 	.child1, .child2, .child3 {
@@ -405,8 +427,8 @@ a{
 		grid-row-start:3;
 		grid-row-end:5;
 		grid-column-start:1;
-		grid-column-end: 3;
-		width: 50%;
+		grid-column-end: 5;
+		width: 75%;
 		margin: 0.7rem auto;
 	}
 	.nome-projeto{
@@ -415,14 +437,14 @@ a{
 		grid-column-start:2;
 		grid-column-end: 4;
 		font-family: Montserrat;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		text-align: center;
 		margin-top: 0.5rem;
 	}
 	.head-dis{
 		grid-row-start:5;
 		grid-row-end:7;
-		grid-column-start:2;
+		grid-column-start:1;
 		grid-column-end: 4;
 		margin-left: 1rem;
 		font-size: 1.2rem;
@@ -492,15 +514,17 @@ a{
 		font-size: 1rem;
 		margin-top: 0.7rem;
 	}
-	.item-ex {
-		list-style-type:circle;
+	.ex {
 		grid-row-start:21;
 		grid-row-end:23;
 		grid-column-start:2;
 		grid-column-end: 4;
+		margin-bottom: 0.3rem;
+	}
+	.item-ex{
+		list-style-type:circle;
 		margin: 0 auto 0 2rem;
-		margin-bottom: 1rem;
-		margin-top: 0.7rem;
+		margin-top: 0.3rem;
 	}
 	.item-header{
 		font-size: 1rem;

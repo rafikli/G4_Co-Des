@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
   if(path != '/undefined/undefined/undefined'){
     /* codigo das paginas de projeto */
     db.download(path, function(data) {
+      let corpo = document.querySelector('.hidden')
+      let gif = document.querySelector('.load')
+      gif.classList.add('hidden')
+      corpo.classList.remove('hidden')
+
       replace('body', {
           'nome': data['nome'],
           'disciplina': data['disciplina'],
@@ -28,7 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
     path = '/'
 
     db.download(path, function(data) {
-
+      let corpo = document.querySelector('.hidden')
+      let gif = document.querySelector('.load')
+      gif.classList.add('hidden')
+      corpo.classList.remove('hidden')
       replace('body', {
           'FocoPrático': data['Foco Prático'],
           'FocoTeórico': data['Foco Teórico'],
