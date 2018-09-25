@@ -176,6 +176,13 @@ p{
 	font-family: Archivo;
 
 }
+a{
+    color: #233040;
+}
+
+a:hover{
+	text-decoration: underline;
+}
 
 .foco{
 	position: relative;
@@ -427,14 +434,11 @@ a{
 	}
 	.vertodos{
 		display: grid;
-		grid-template-columns: 100%;
-		padding: 1rem;
+		grid-template-columns: 90% 10%;
 		margin: 1rem auto;
-		max-width: 40rem;
+		max-width: 30rem;
 	}
 	.ver-todos-box1, .ver-todos-box2{
-		border: 0.1rem solid;
-		padding: 0.5rem;
 		grid-column-start: 1;
 		grid-column-end: 2;
 		font-family: Archivo;
@@ -442,12 +446,10 @@ a{
 
 	.ver-todos-box1{
 		grid-row-start: 1;
-		grid-column-end: 3;
 	}
 
 	.ver-todos-box2{
 		grid-row-start: 3;
-		grid-column-end: 4;
 	}
 	.main-disciplina {
 		display: grid;
