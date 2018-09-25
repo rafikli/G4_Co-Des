@@ -55,7 +55,7 @@
 				<div class="child2">
 
 					<a href="pfmodsim.html">
-						<h3 class="titulo-des">P.F. Design de Software</h3>
+						<h3 class="titulo-des">Projeto Final Design de Software</h3>
 					</a>
 					<img src="https://picsum.photos/100/50/?random" alt="imagem da disciplina" class="foto-sec">
 					<p class="sumiu">
@@ -80,10 +80,12 @@
 
 			<section class="vertodos">
 				<div class="ver-todos-box1">
-					<h3 class="foco" id="focoT">Foco Teórico</h3>
+
+					<button class="foco accordion" id="focoT">Foco Teórico</button>
 					<ul class="foco-pl">
 						{{#each FocoTeórico as |projetos grupo|}}
-	       			 		<li class="grupo-teorico">{{grupo}}</li>
+
+	       			 		<li class="grupo-teorico accordion">{{grupo}}</li>
 	       			 		<ul>
 		       			 		{{#each projetos}}
 		       			 			<a href="projeto.html?foco=Foco Teórico&category={{grupo}}&course={{@key}}"><li class="item-teorico">{{@key}}</li></a>
@@ -94,10 +96,12 @@
 				</div>
 
 				<div class="ver-todos-box2">
-					<h3 class="foco" id="focoP">Foco Prático</h3>
+
+					<button class="foco accordion" id="focoP">Foco Prático</button>
 					<ul class="focotl">
 						{{#each FocoPrático as |projetos grupo|}}
-	       			 		<li class="grupo-pratico">{{grupo}}</li>
+
+	       			 		<li class="grupo-pratico accordion">{{grupo}}</li>
 	       			 		<ul>
 		       			 		{{#each projetos}}
 		       			 			<a href="projeto.html?foco=Foco Prático&category={{grupo}}&course={{@key}}"><li class="item-pratico">{{@key}}</li></a>
@@ -113,6 +117,8 @@
 					<li class="footer-item"><img src="assets/img/insper-branco-simples.png" alt="Logo do Insper" id="inspermainlogoimgfooter"></li>
 					<li class="footer-item">Rua Quatá, 300 - Vila Olímpia - São Paulo/SP - Brasil</li>
 					<li class="footer-item">Tel: (11) 4504-2400</li>
+					<li class="footer-item"><a href="https://icons8.com">Icon pack by Icons8</a></li>
+
 				</ul>
 
 			</footer>

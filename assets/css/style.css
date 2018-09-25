@@ -112,14 +112,12 @@
 .vertodos{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	padding: 1rem;
+	padding: 0rem;
 	margin: 1rem auto;
 	max-width: 40rem;
 }
 
 .ver-todos-box1, .ver-todos-box2{
-	border: 0.1rem solid;
-	padding: 0.5rem;
 	font-family: Archivo;
 }
 
@@ -164,22 +162,53 @@ p{
 }
 
 .grupo-teorico, .grupo-pratico{
-	margin-left: 0.7rem;
+	margin-top: 0.3rem;
+	margin-left: 2.4rem;
 	list-style-type: disc;
 	font-family: Montserrat;
 	font-weight: bold;
 }
 
 .item-teorico, .item-pratico{
-	margin-left: 1.5rem;
+	margin-top: 0.3rem;
+	margin-left: 3.4rem;
 	list-style-type: circle;
 	font-family: Archivo;
+
 }
 
 .foco{
-	text-align: center;
+	position: relative;
 	font-family: Montserrat;
 	font-weight: bold;
+}
+.accordion{
+	background-color: #BBD4D8;
+	color: #233040;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	transition: 0.4s;
+	font-size: 1rem;
+}
+
+.accordion:after {
+		background-color: #BBD4D8;
+		color: #233040;
+    content: '\02795';
+    font-size: 0.8rem;
+    color: #777;
+    float: right;
+    margin-left: -10rem;
+}
+
+.active, .accordion:hover {
+
+}
+
+.active:after {
+    content: "\2796";
+		color: #233040;
 }
 
 /* CSS da pagina dos projetos */
@@ -325,7 +354,12 @@ a{
 }
 .geral{
 }
-
+.sumiuvt{
+	display: none;
+}
+#focoP, #focoT, .grupo-teorico, .grupo-pratico, .item-teorico, .item-pratico{
+	cursor: pointer;
+}
 
 @media (max-width: 440px) {
 	.child1, .child2, .child3 {
