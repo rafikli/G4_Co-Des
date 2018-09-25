@@ -434,9 +434,9 @@ a{
 	}
 	.vertodos{
 		display: grid;
-		grid-template-columns: 90% 10%;
+		grid-template-columns: 80% 20%;
 		margin: 1rem auto;
-		max-width: 30rem;
+		max-width: 25rem;
 	}
 	.ver-todos-box1, .ver-todos-box2{
 		grid-column-start: 1;
@@ -559,7 +559,7 @@ a{
 	}
 	.item-ex{
 		list-style-type:circle;
-		margin: 0 auto 0 2rem;
+		margin: 0 auto 0 0rem;
 		margin-top: 0.3rem;
 	}
 	.item-header{
