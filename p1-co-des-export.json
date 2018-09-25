@@ -1,6 +1,6 @@
 {
   "Foco Prático": {
-    "Automação/Eletrônica": {
+    "Automação": {
       "Estação Meteorológica": {
         "nome": "Estação Meteorológica",
         "disciplina": "Instrumentação e Medição (1º Semestre)",
@@ -8,7 +8,7 @@
         "conteudo": ["cont1", "cont2", "cont3", "cont4"],
         "objetivos": ["Aplicar os conceitos de grandeza física e unidade no contexto metrológico, segundo o Vocabulário Internacional de Metrologia (VIM) e o Sistema Internacional de Unidades (SI);", "Utilizar instrumentação básica em eletricidade (multímetros, osciloscópios, fontes e geradores de função);", "Projetar circuitos elétricos e eletrônicos e confeccionar placas de circuito impresso dedicadas;", "Aquisitar dados de fenômenos físicos com o emprego de sensores/transdutores eletro-eletrônicos e com o uso do Arduino;", "Aplicar os conceitos de incerteza, exatidão, precisão, resolução, repetibilidade e sensibilidade nas atividades metrológicas;", "Analisar e apresentar dados utilizando ferramentas estatísticas básicas."],
         "exemplos": ["Exemplo 1", "Exemplo2", "Exemplo3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de Acionamentos Elétricos": {
         "nome": "Projeto Final de Acionamentos Elétricos",
@@ -17,7 +17,7 @@
         "conteudo": ["Variáveis elétricas, elementos de circuitos, Leis de Kirchhoff e associações;", "Tensão eficaz e fasores;", "Fasores e solução de circuitos com variáveis complexas;", "Princípios de funcionamento de diodo e transistor;", "Resposta natural de um circuito RC;", "Modelo e comportamento do amplificador operacional;", "Circuitos diferenciador, integrador e oscilador com amplificadores operacionais;", "Resposta forçada de um circuito RC;", "Diagrama de Bode de filtros passa-baixa/passa-alta;", "Equacionamento e implementação do circuito RLC;", "Modelo de um motor de corrente contínua com escovas;", "Controle de potência de um motor DC por divisão de tensão e por modulação PWM;"],
         "objetivos": ["Modelar matematicamente circuitos elétricos de primeira e segunda ordem;", "Analisar diagramas de circuitos elétricos;", "Simular circuitos elétricos;", "Projetar um circuito elétrico para o acionamento de cargas de natureza variada utilizando a estratégia de modulação por largura de pulso (PWM);", "Selecionar componentes a serem utilizados nos projetos valendo-se de datasheets e fontes de informação fornecidas pelos fabricantes."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de Modelagem e Controle": {
         "nome": "Projeto Final de Modelagem e Controle",
@@ -26,7 +26,7 @@
         "conteudo": ["cont1", "cont2", "cont3", "cont4"],
         "objetivos": ["oa1", "oa2", "oa3", "oa4"],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       }
     },
     "Design": {
@@ -37,7 +37,7 @@
         "conteudo": ["cont1", "cont2", "cont3", "cont4"],
         "objetivos": ["oa1", "oa2", "oa3", "oa4"],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Melhoria para carroça de catadores": {
         "nome": "Melhoria para carroça de catadores",
@@ -46,7 +46,7 @@
         "conteudo": ["Desenho técnico não instrumentado", "Princípios Básicos de CAD/CAM", "Fundamentos de Design para Engenharia", "Design Centrado no Usuário", "Fabricação digital e Prototipagem"],
         "objetivos": ["Processo de Design - Identificar e abordar problemas de design", "Processo de Design -  Aplicar métodos formais para facilitar o processo de design.", "Comunicação -  Documentar o processo de design", "Comunicação - Representar um objeto graficamente por meio de sketch ", "Comunicação - Apresentar oralmente os resultados do processo de design.", "Prototipagem - Utilizar técnicas de fabricação digital para prototipar soluções.", "Aprender pelo projeto - Compreender o projeto de design como forma de aprendizagem pelo fazer (hands-on).", "Trabalho em equipe - Entender o trabalho em equipe como importante fator no processo de design, com crescente consciência dos papéis a serem executados durante o projeto."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de de Co-Design de aplicativos": {
         "nome": "Projeto Final de Co-Design de aplicativos",
@@ -55,7 +55,7 @@
         "conteudo": ["Princípios básicos de design gráfico.", "Princípios básicos de desenvolvimento front-end.", "Entrevistas para empatia e imersão.", "Processo de ideação.", "Elaboração de personas e cenários.", "Prototipação digital.", "Teste de usabilidade."],
         "objetivos": ["Analisar usuários a partir de entrevistas e hipóteses.", "Sintetizar questões de projeto a partir de análises de usuários.", "Criar conceitos de aplicativo a partir de questões de projeto.", "Aplicar ferramentas de design gráfico e tecnologias de front-end web em prototipação digital.", "Avaliar protótipos digitais a partir de personas e cenários."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       }
     },
     "Programação": {
@@ -66,7 +66,7 @@
         "conteudo": ["Variáveis quantitativas e qualitativas.", "Medidas resumo, centralidade e dispersão.", "Diagramas e recursos gráficos.", "Introdução ao ambiente de tratamento de dados.", "Abertura de base de dados, tratamento de valores inválidos, filtragem e seleção.", "Análise bidimensional.", "Teoria da probabilidade", "Introdução à classificação", "Variáveis e distribuições discretas e contínuas.", " Inferência estatística e por reamostragem.", "Regressão linear simples e múltipla."],
         "objetivos": ["Elaborar análises exploratórias de dados (univariadas e multivariadas), utilizando ferramentas estatísticas e computacionais adequadas.", "Selecionar informações de bancos de dados, tratá-los e prepará-los para processamento.", "Especificar as distribuições de probabilidades adequadas para as variáveis quantitativas discretas e contínuas.", "Conduzir testes inferenciais adequados que possam dar base à tomada de decisão.", "Analisar relações entre as variáveis, utilizando ferramentas estatísticas inferenciais adequadas."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de Design de Software":  {
         "nome": "Projeto Final de Design de Software",
@@ -75,7 +75,7 @@
         "conteudo": ["Introdução a linguagens de programação e como o computador executa programas.", "Introdução à linguagem Python, entrada e saída de dados.", "Variáveis e tipos de dados.", "Operadores condicionais.", "Operadores de repetição.", "Cadeias de caracteres.", "Listas.", "Funções.", "Matrizes.", "Estruturas de dados básicas, pilhas e filas.", "Introdução à orientação a objetos."],
         "objetivos": ["Desenvolver programas de computador.", "Identificar e programar estratégias computacionais de resolução de problemas práticos.", "Atuar em uma equipe gerenciada por métodos ágeis."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de Modelagem e Simulação":  {
         "nome": "Projeto Final de Modelagem e Simulação",
@@ -84,7 +84,7 @@
         "conteudo": ["Taxa de variação média e taxa de variação unitária.", "Diagramas de estoques e fluxos.", "Equações a diferenças.", "Modelos clássicos de dinâmica populacional.", "Princípios de programação usando Python.", "Resolução numérica de equações a diferenças.", "Taxa de variação instantânea.", "Princípios físicos de sistemas térmicos.", "Modelagem de sistemas farmacocinéticos.", "Equações diferenciais de primeira ordem.", "Introdução à resolução numérica de equações diferenciais e sistemas de equações diferenciais.", "Princípios físicos de sistemas mecânicos.", "Introdução ao cálculo com vetores.", "Diagramas de corpo livre.", "A taxa de variação instantânea como uma função.", "Equações diferenciais de segunda ordem.", "Técnicas analíticas para validação de modelos matemáticos."],
         "objetivos": ["Criar modelos de diferentes tipos de sistemas, usando diferentes estratégias de abstração.", "Implementar solução numérica de modelos de sistemas dinâmicos usando a linguagem de programação Python.", "Utilizar técnicas comuns de validação de modelos a partir de dados dos sistemas reais correspondentes.", "Elaborar conclusões a partir do comportamento observado para os modelos simulados.", "Comunicar oralmente um conteúdo técnico, com auxílio de um cartaz e/ou apresentação de slides"],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       }
     }
   },
@@ -97,7 +97,7 @@
         "conteudo": ["cont1", "cont2", "cont3", "cont4"],
         "objetivos": ["oa1", "oa2", "oa3", "oa4"],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       }
     },
     "Exatas": {
@@ -108,7 +108,7 @@
         "conteudo": ["cont1", "cont2", "cont3", "cont4"],
         "objetivos": ["oa1", "oa2", "oa3", "oa4"],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de Matemática Multivariada": {
         "nome": "Projeto Final de Matemática Multivariada",
@@ -117,7 +117,7 @@
         "conteudo": ["cont1", "cont2", "cont3", "cont4"],
         "objetivos": ["oa1", "oa2", "oa3", "oa4"],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       },
       "Projeto Final de Matemática da Variação": {
         "nome": "Projeto Final de Matemática da Variação",
@@ -126,7 +126,7 @@
         "conteudo": ["Os problemas fundamentais do Cálculo: taxa de variação instantânea e cálculo da acumulação de uma variável.", "Limite de sequências, limite e continuidade de funções.", "Derivada em um ponto e função derivada: interpretações algébrica e geométrica.", "Cálculo da derivada de diferentes funções.", "Integral definida e indefinida.", "Teorema Fundamental do Cálculo.", "Cálculo da integral de diferentes funções.", "Equações diferenciais ordinárias de 1a ordem: métodos analíticos de resolução.", "Equações diferenciais ordinárias de 2a ordem: métodos analíticos de resolução.", "Aplicações de derivadas: máximos e mínimos, concavidade, gráficos.", "Diferenciais, aproximações lineares e polinômio de Taylor.", "Sistemas de equações diferenciais.", "Álgebra matricial.", "Vetores, combinações lineares, dependência e independência linear.", "Autovalores, autovetores e diagonalização de matrizes."],
         "objetivos": ["Quantificar, interpretar e expressar algébrica e graficamente as taxas de variação média e instantânea de uma grandeza em relação a outra (OA1).", "Interpretar e calcular o valor acumulado de uma variável dependente com a alteração do valor da variável independente (OA2).", "Utilizar os conceitos e ferramentas vistos no curso para criar modelos de situações da realidade, envolvendo principalmente equações diferenciais, com o objetivo de estabelecer previsões e tomar decisões (OA3).", "Utilizar ferramentas da Álgebra Linear para resolver modelos matemáticos originados da caracterização de sistemas dinâmicos (OA4).", "Aprender a aprender matemática, ou seja, deve desenvolver autonomia, em relação ao conhecimento matemático, para buscar fontes de estudo e selecionar métodos que tornem seu aprendizado mais eficiente (OA5)."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       }
     },
     "Pensamento Crītico": {
@@ -137,7 +137,7 @@
         "conteudo": ["O que é ciência e método científico;", "Sociologia e campo científico;", "O que é tecnologia e sua construção social;", "Ética, ciência e tecnologia;", "Economia e inovação tecnológica;", "Escolhas tecnológicas e seus usos sociais."],
         "objetivos": ["Entender e explicar as relações interdisciplinares entre ciência, tecnologia e sociedade;", "Comparar e prever os efeitos de diferentes escolhas tecnológicas em distintos contextos sociais e econômicos;", "Analisar e avaliar os usos sociais da tecnologia à luz de temas contemporâneos."],
         "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
-        "foto": "assets/img/Foto_PF_ModSim.jpeg"
+        "foto": "https://picsum.photos/300/200/?random"
       }
     }
   }
