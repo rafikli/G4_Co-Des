@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     db.download(path, function(data) {
       let corpo = document.querySelector('.hidden')
       let gif = document.querySelector('.load')
+      corpo.classList.remove("hidden")
       gif.classList.add('hidden')
-      corpo.classList.remove('hidden')
 
       replace('body', {
           'nome': data['nome'],
