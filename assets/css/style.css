@@ -163,18 +163,25 @@ p{
 
 .grupo-teorico, .grupo-pratico{
 	margin-top: 0.3rem;
-	margin-left: 2.4rem;
+	margin-left: 0rem;
 	list-style-type: disc;
 	font-family: Montserrat;
 	font-weight: bold;
 }
+.grupo-pratico {
+	margin-left: 1rem;
+}
+
 
 .item-teorico, .item-pratico{
 	margin-top: 0.3rem;
-	margin-left: 3.4rem;
+	margin-left: -1rem;
 	list-style-type: circle;
 	font-family: Archivo;
 
+}
+.item-pratico {
+	margin-left: 2rem;
 }
 a{
     color: #233040;
@@ -188,6 +195,7 @@ a:hover{
 	position: relative;
 	font-family: Montserrat;
 	font-weight: bold;
+	text-align: center;
 }
 .accordion{
 	background-color: #BBD4D8;
@@ -196,6 +204,7 @@ a:hover{
 	width: 100%;
 	text-align: left;
 	transition: 0.4s;
+    outline: none;
 	font-size: 1rem;
 }
 
@@ -206,7 +215,7 @@ a:hover{
     font-size: 0.8rem;
     color: #777;
     float: right;
-    margin-left: -10rem;
+    margin-left: 0rem;
 }
 
 .active, .accordion:hover {
@@ -434,13 +443,13 @@ a{
 	}
 	.vertodos{
 		display: grid;
-		grid-template-columns: 80% 20%;
+		grid-template-columns: 10% 80% 10%;
 		margin: 1rem auto;
 		max-width: 25rem;
 	}
 	.ver-todos-box1, .ver-todos-box2{
-		grid-column-start: 1;
-		grid-column-end: 2;
+		grid-column-start: 2;
+		grid-column-end: 3;
 		font-family: Archivo;
 	}
 
@@ -566,5 +575,24 @@ a{
 		font-size: 1rem;
 		padding: 0 0.2rem;
 		color: #BBD4D8;
+	}
+	.accordion {
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+	.item-teorico, .item-pratico{
+		margin-top: 0.3rem;
+		margin-left: 2rem;
+		list-style-type: circle;
+		font-family: Archivo;
+		font-size: 1.2rem;
+
+	}
+	.grupo-teorico, .grupo-pratico{
+		margin-top: 0.7rem;
+		margin-left: 0.5rem;
+		margin-bottom: 0.7rem;
+		text-decoration: underline;
 	}
 }
